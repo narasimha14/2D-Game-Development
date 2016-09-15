@@ -1,0 +1,137 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle></screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+<numberOfLeafSprites>60</numberOfLeafSprites>
+<numberOfBirdSprites>9</numberOfBirdSprites>
+<frameMax>300</frameMax>
+<username>nrampur</username>
+<!-- HUD Display Time (in ms) -->
+<hudTime>3000</hudTime>
+<!-- Girl & Mowgli Chat Box Display Time (in second) -->
+<girlChatTime>3</girlChatTime>
+<mowgliChatTime>2</mowgliChatTime>
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>1920</width>
+  <height>804</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+<grassland>
+  <file>images/grassland.png</file>
+  <factor>1</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1920</width>
+  <height>804</height>
+  <transparency>true</transparency>
+</grassland>
+<trees>
+  <file>images/trees.png</file>
+  <factor>4</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1920</width>
+  <height>804</height>
+  <transparency>true</transparency>
+</trees>
+<treesFront>
+  <file>images/trees2.png</file>
+  <factor>2</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1920</width>
+  <height>804</height>
+  <transparency>true</transparency>
+</treesFront>
+<mountain>
+  <file>images/mountain.png</file>
+  <factor>8</factor>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>1920</width>
+  <height>804</height>
+  <transparency>true</transparency>
+</mountain>
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>18</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+
+<mowgli>
+  <file>images/mowgli3.png</file>
+  <startLoc x="210" y="620"/>
+  <frames>20</frames>
+  <frameInterval>100</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>120</width>
+  <height>120</height>
+  <speedX>330</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <offsetX>350</offsetX>
+  <offsetY>0</offsetY>
+</mowgli>
+
+<girl>
+  <file>images/girl3.png</file>
+  <startLoc x="1800" y="540"/>
+  <frames>4</frames>
+  <frameInterval>400</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>120</width>
+  <height>200</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</girl>
+
+<monkey>
+  <file>images/monkey.png</file>
+  <startLoc x="1600" y="600"/>
+  <frames>6</frames>
+  <frameInterval>100</frameInterval>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>60</width>
+  <height>100</height>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</monkey>
+
+<leaf>
+  <file>images/leaf.png</file>
+  <cushionY>50</cushionY>
+  <cushionX>0</cushionX>
+  <scale min="0.25" max="1"/>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="0" y="100"/>
+  <speedX>0</speedX>
+  <speedY>30</speedY>
+  <transparency>true</transparency>
+</leaf>
+</GameData>

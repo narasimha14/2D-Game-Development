@@ -1,0 +1,2 @@
+# 2D-Gaming-Player-Sprite-HUD-and-Parallax-Scrolling
+In this project, we implemented a player sprite and functions to allow it to move forward and backward. We also made use of Painter's algorithm &amp; parallax scrolling to get the feel of depth in the game. There is a HUD that displays the FPS, time elapsed, help to move the player, etc. It appears at the start of the game and disappears after 2 seconds ( is configurable via the xml) but can be brought up by pressing the F1 key.
