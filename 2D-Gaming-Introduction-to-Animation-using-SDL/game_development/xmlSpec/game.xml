@@ -1,0 +1,74 @@
+<?xml version = "1.0"?>
+<GameData>
+<screenTitle>Doom's Day</screenTitle>
+<maxStringSize>50</maxStringSize>
+<username>nrampur</username>
+<frameMax>200</frameMax>
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>854</width>
+  <height>480</height>
+</world>
+
+<clock>
+  <locX>10</locX>
+  <locY>10</locY>
+</clock>
+
+<back>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+</back>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>255</blue>
+  <unused>0</unused>
+</font>
+<saucer>
+  <file>images/saucer.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>64</width>
+  <height>64</height>
+  <startLoc x="0" y="20"/>
+  <speedX>50</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+  <numberOfSprites>3</numberOfSprites>
+</saucer>
+<flameorb>
+  <file>images/flame_orb_darker.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>32</width>
+  <height>32</height>
+  <startLoc x="280" y="200"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+  <numberOfSprites>41</numberOfSprites>
+</flameorb>
+<background>
+  <file>images/fire_world_final.png</file>
+  <srcX>0</srcX>
+  <srcY>0</srcY>
+  <width>854</width>
+  <height>480</height>
+  <startLoc x="0" y="0"/>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>true</transparency>
+</background>
+</GameData>
